@@ -14,9 +14,20 @@
 
     <Button
         android:id="@+id/audio"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="audio" />
+        android:text="audio"
+        android:textSize="25sp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:text="Log Out" />
 
 </RelativeLayout>
